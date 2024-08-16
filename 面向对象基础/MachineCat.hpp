@@ -1,4 +1,8 @@
+#ifndef MACHINECAT_HPP
+#define MACHINECAT_HPP
+
 #include "Cat.hpp"
+#include "IChange.hpp"
 #include <string>
 
 using std::string;
@@ -12,3 +16,5 @@ class MachineCat: public Cat, public IChange {
         }
         ~MachineCat(){}
 };
+
+#endif
