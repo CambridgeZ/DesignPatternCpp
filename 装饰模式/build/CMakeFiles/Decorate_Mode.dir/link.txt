@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/Decorate_Mode.dir/main.cpp.o -o Decorate_Mode 
