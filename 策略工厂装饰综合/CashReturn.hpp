@@ -17,7 +17,7 @@ class CashReturn : public CashSuper{
             if(result >= moneyCondition){
                 result = result - moneyReturn;
             }
-            return super::acceptCash(result, 1);
+            return CashSuper::acceptCash(result, 1);
         }
 };
 

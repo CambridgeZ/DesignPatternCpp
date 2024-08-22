@@ -12,6 +12,8 @@ class CashRebate : public CashSuper{
         }
         double acceptCash(double price, double Number){
             int result = price*Number*moneyRebate;
-            return super::acceptCash(result, 1);
+            return CashSuper::acceptCash(result, 1);
         }
 };
+
+#endif
