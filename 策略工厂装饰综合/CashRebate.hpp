@@ -11,7 +11,7 @@ class CashRebate : public CashSuper{
             this->moneyRebate = moneyRebate;
         }
         double acceptCash(double price, double Number){
-            int result = price*Number*moneyRebate;
+            double result = price*Number*moneyRebate;
             return CashSuper::acceptCash(result, 1);
         }
 };
