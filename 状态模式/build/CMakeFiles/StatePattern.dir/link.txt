@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/StatePattern.dir/main.cpp.o CMakeFiles/StatePattern.dir/AfternoonState.cpp.o CMakeFiles/StatePattern.dir/EveningState.cpp.o CMakeFiles/StatePattern.dir/NoonState.cpp.o -o StatePattern 
