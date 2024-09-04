@@ -1,0 +1,1 @@
+/usr/bin/c++ -rdynamic CMakeFiles/FacadePattern.dir/main.cpp.o -o FacadePattern 
