@@ -3,12 +3,13 @@
 
 #include "Person.hpp"
 #include "Action.hpp"
+#include <memory>
 
 
 class Man: public Person {
 public:
     void accept(std::shared_ptr<Action> visitor) override {
-        visitor->getManConclusion(std::shared_ptr<Man>(this));
+        visitor->getManConclusion(this);
     }
 };
 

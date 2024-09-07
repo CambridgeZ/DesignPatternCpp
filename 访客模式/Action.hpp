@@ -12,8 +12,8 @@ class Woman;
 
 class Action {
 public:
-    virtual void getManConclusion(shared_ptr<Man> concreteElementA) = 0;
-    virtual void getWomanConclusion(shared_ptr<Woman> concreteElementB) = 0;
+    virtual void getManConclusion(Man* concreteElementA) = 0;
+    virtual void getWomanConclusion(Woman* concreteElementB) = 0;
 };
 
 #endif // ACTION_HPP
